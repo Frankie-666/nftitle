@@ -1,6 +1,6 @@
-/*Всплывашие подсказки как в контакте на чистом js*/
-/*Автор: artquant*/
-/*Использование: не для коммерции*/
+//Всплывашие подсказки как в контакте на чистом js
+//Автор: artquant
+//Использование: не для коммерции
 
 function artNF(e,c,h,k){var b=document.getElementById("nftitle"),g;void 0!=b&&b.parentNode.removeChild(b);b=document.createElement("div");b.id="nftitle";b.innerHTML='<div id="nftitle-body">'+c+'</div><div id="nftitle-arrow-out"><div id="nftitle-arrow-in"></div></div>';document.body.appendChild(b);var a=document.getElementById("nftitle");document.getElementById("nftitle-body");c=document.getElementById("nftitle-arrow-out");b=document.getElementById("nftitle-arrow-in");a.style.border="1px solid #ADBAC7";
 a.style.padding="10px";a.style.fontSize="11px";a.style.color="#000000";a.style.position="absolute";a.style.display="inline-block";a.style.background="#ffffff";a.style.boxShadow="0 0 2px rgba(0,0,0,0.2)";a.style.zIndex=99997;a.style.opacity=0;c.style.position="absolute";c.style.zIndex=99998;c.style.border="6px solid transparent";b.style.border="5px solid transparent";b.style.position="absolute";b.style.zIndex=99999;switch(h){case "top":var d=0.1,f=0;a.style.top=parseInt(document.getElementById(e).offsetTop-
